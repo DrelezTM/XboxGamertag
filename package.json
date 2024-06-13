@@ -1,0 +1,36 @@
+{
+  "name": "xboxgamertag",
+  "version": "1.0.0",
+  "description": "A client library for searching Xbox Gamertags in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrelezTM/XboxGamertag.git"
+  },
+  "keywords": [
+    "Xbox Search",
+    "Xbox Gamertags",
+    "Xbox",
+    "Microsoft",
+    "Xbox Scrapper"
+  ],
+  "author": "DrelezTM",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7"
+  },
+  "bugs": {
+    "url": "https://github.com/DrelezTM/XboxGamertag/issues"
+  },
+  "homepage": "https://github.com/DrelezTM/XboxGamertag#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "jsdom": "^24.1.0"
+  }
+}
