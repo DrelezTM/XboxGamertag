@@ -71,7 +71,7 @@
 * Example Response
   ```json
   {
-    "message": "Gamertag Berhasil Ditemukan",
+    "message": "Successfully found Gamertag!",
     "profile": {
         "gamertag": "Drelez",
         "avatar": "https://images.weserv.nl/?url=https://images-eds-ssl.xboxlive.com/image?url=wHwbXKif8cus8csoZ03RW_ES.ojiJijNBGRVUbTnZKsoCCCkjlsEJrrMqDkYqs3Mr4hSPR51EO7YOcBVc07Tk5bdOFLOrIT2PBk7nzYYihZ287x72g7AkxO2sByN5BI1NuLBXqDrwdtEOeZKFtZfwvr5b_6aoOARmXS78pvHwyU-&format=png&maxage=1d&output=webp&w=90&h=90",
