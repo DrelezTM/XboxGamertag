@@ -42,8 +42,8 @@ async function xboxGamertag(gamertag) {
                 gamename: gameName[i].textContent.trim(),
                 lastplayed: lastPlayed[i].textContent.trim(),
                 platform: gamePlatform[i].textContent.trim(),
-                gamescore: gameAchievements[i * 2].textContent.trim(),
-                achievement: gameAchievements[i * 2 + 1].textContent.trim(),
+                gamescore: gameAchievements[i * 2] == undefined ? undefined : gameAchievements[i * 2].textContent.trim(),
+                achievement: gameAchievements[i * 2 + 1] == undefined ? undefined : gameAchievements[i * 2 + 1].textContent.trim(),
                 progress: gameProgress[i].textContent.trim(),
             });
         }
