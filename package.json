@@ -1,6 +1,6 @@
 {
   "name": "xboxgamertag",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A client library for searching Xbox Gamertags in NodeJS",
   "main": "index.js",
   "scripts": {
